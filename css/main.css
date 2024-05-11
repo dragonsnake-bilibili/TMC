@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E0F2F1;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  line-height: 1em;
+}
+
+h1 .primary {
+  font-size: xx-large;
+}
+
+h1 .secondary {
+  font-size: large;
+}
+
+aside,
+main {
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 640px) {
+  aside {
+    width: 240px;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: fixed;
+  }
+
+  main {
+    border-left-style: dashed;
+    border-left-color: #4DB6AC;
+    float: right;
+    width: calc(100% - 240px);
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media screen and (max-width: 640px) {}
+
+.card {
+  background-color: #B2DFDB;
+  border-radius: 12px;
+  margin: 12px;
+  padding: 8px;
+}
+
+.card>.title {
+  font-size: larger;
+}
+
+.full-width {
+  width: 100%;
+}
