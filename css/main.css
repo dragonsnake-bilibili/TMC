@@ -4,6 +4,7 @@
 
 body {
   background-color: #E0F2F1;
+  font-family: "lxgw-wenkai-lite";
 }
 
 h1 {
@@ -58,4 +59,12 @@ main {
 
 .full-width {
   width: 100%;
+}
+
+span.title {
+  margin-right: 1em;
+}
+
+span.publish-time.new {
+  color: #0097A7;
 }
