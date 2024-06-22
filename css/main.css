@@ -53,6 +53,10 @@ main {
   padding: 8px;
 }
 
+.alert {
+  background-color: #EC407A;
+}
+
 .card>.title {
   font-size: larger;
 }
@@ -67,4 +71,18 @@ span.title {
 
 span.publish-time.new {
   color: #0097A7;
+}
+
+.hidden {
+  display: none;
+}
+
+.anchor>a[data-is-anchor] {
+  margin-left: 0.8em;
+  text-decoration: none;
+  visibility: hidden;
+}
+
+.anchor:hover>a[data-is-anchor] {
+  visibility: visible;
 }
