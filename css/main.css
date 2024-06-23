@@ -86,3 +86,7 @@ span.publish-time.new {
 .anchor:hover>a[data-is-anchor] {
   visibility: visible;
 }
+
+ul>div>span.anchor {
+  margin-left: -2em;
+}
